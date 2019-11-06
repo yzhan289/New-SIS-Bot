@@ -42,3 +42,5 @@ Begin running at least a minute before 7:00 AM. The program will wait/keep runni
 ```
 python bot.py SIS_Username SIS_Password
 ```
+
+That's all you need to do! The bot will open a new window and sign in to your SIS account. At 7am it will click register to make sure you get the classes you want!
