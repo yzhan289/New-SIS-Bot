@@ -22,7 +22,7 @@ First, make sure all of the classes you want to register for are in your cart on
 
 ```
 git clone https://github.com/yzhan289/New-SIS-Bot
-cd SIS-Bot
+cd New-SIS-Bot
 pip install -r requirements.txt
 brew install chromedriver
 ```
