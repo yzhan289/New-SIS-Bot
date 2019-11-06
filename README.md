@@ -1,10 +1,14 @@
+# NEW SIS Bot #
+
+This is an updated version of nkrisn9's selenium bot to register for classes on SIS:
+https://github.com/nkrishn9/SIS-Bot
+
+I just updated this since nkrishn9 has since graduated.
+
 ### UPDATE: Make sure you have the most updated version of Selenium: ###
 ```
 pip install -U selenium
 ```
-
-
-# NEW SIS Bot #
 
 This selenium bot allows you to register for classes on the Johns Hopkins SIS portal right at 7:00 AM, virtually guaranteeing a spot in all of your classes. 
 
