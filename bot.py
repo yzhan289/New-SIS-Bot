@@ -2,10 +2,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException  
-from selenium.webdriver.support.ui import Select 
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.ui import Select
 import datetime
-import os 
+import os
 import sys
 
 usernameStr = 'REPLACE'
@@ -50,5 +50,11 @@ while True:
 	if current_hour == 7:
 		browser.execute_script("arguments[0].click();", register)
 		WebDriverWait(browser, 10000)
+		while True:
+			if (browser.find_element_by_id('ctl00_contentPlaceHolder_rbWaitlistYes')):
+				yes = browser.find_element_by_id('ctl00_contentPlaceHolder_rbWaitlistYes')
+				cont = browser.find_element_by_id('ctl00_contentPlaceHolder_cmdContinue')
+				yes.click()
+				WebDriverWait(browser, 10)
+				cont.click()
 		break
-
