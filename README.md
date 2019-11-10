@@ -10,7 +10,7 @@ I just updated this since nkrishn9 has since graduated.
 pip install -U selenium
 ```
 
-This selenium bot allows you to register for classes on the Johns Hopkins SIS portal right at 7:00 AM, virtually guaranteeing a spot in all of your classes. 
+This selenium bot allows you to register for classes on the Johns Hopkins SIS portal right at 7:00 AM, virtually guaranteeing a spot in all of your classes. This will also automatically sign you up for any waitlisted classes.
 
 
 
